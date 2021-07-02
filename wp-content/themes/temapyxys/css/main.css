@@ -1,0 +1,238 @@
+/*!
+ * MAIN CSS 
+ * By Isaque Palmieri
+ */
+
+a:hover {
+	text-decoration: none;
+}
+button, a {
+	font-family: 'Raleway', sans-serif;
+}
+p, button, input, div {
+	font-family: 'Rubik', sans-serif;
+}
+h1, h2, h4, h5 {
+	font-family: 'Martel', serif;
+}
+
+p {
+	color: #333333;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+
+h2 {
+	color: #404044;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 8px;
+}
+
+h3 {
+	font-family: 'Rubik', sans-serif;
+	color: #37BDBD;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 30px;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.cursor-pointer {
+	cursor: pointer!important;
+}
+
+.p-fixed {
+	position: fixed!important;
+}
+
+nav.navbar {
+	transition: all .5s ease;
+}
+nav.bg-light {
+    box-shadow: 0 4px 100px rgb(0 0 0 / 15%);
+}
+nav.bg-light .site-logo {
+    padding: 10px 0;
+    filter: invert(1);
+}
+
+.site-logo {
+	width: 25%;
+	padding: 50px 0;
+}
+
+
+/* site styles */
+
+/* top styles */
+#block-top {
+	height: 595px;
+}
+#block-top .textwidget p, #block-top .textwidget h2, #block-top .textwidget h3 {
+	color: white;
+}
+#block-top .textwidget {
+	margin-top: 190px;
+	width: 500px;
+}
+#block-top .textwidget hr {
+	width: 90px;
+	height: 1px;
+	background-color: #37BDBD;
+	margin: 0;
+}
+#block-top .textwidget h2 {
+	margin: 16px 0 8px;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 37px;
+	line-height: 42px;
+}
+#block-top .textwidget p {
+	margin: 0;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#block-top a {
+	margin: 0;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+}
+
+
+/* parceiros styles */
+#listagem-parceiros .panel-grid-cell {
+	-ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    vertical-align: middle!important;
+	border: 0;
+    border-radius: 5px;
+    box-shadow: 50px 50px 50px rgb(0 0 0 / 15%);
+}
+#listagem-parceiros .panel-grid-cell .widget_media_image {
+	margin: auto;
+}
+
+/* Nossos serviços style */
+#list_services_shortcode .card {
+	box-shadow: 0 4px 40px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    border: 0;
+    position: relative;
+    top: 0;
+    transition: all .25s ease;
+    text-decoration: none !important;
+    color: #555;
+}#list_services_shortcode .card:hover {
+    top: -5px;
+}
+
+#list_services_shortcode .card .card-title {
+	color: #2F4850;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 36px;
+	margin-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#list_services_shortcode .card .card-text {
+	color: #777777;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#list_services_shortcode .card .img-service {
+	width: 65px;
+	height: 65px;
+}
+#list_services_shortcode .card .card-header span.mais {
+    font-size: 15px;
+    font-weight: 300;
+    color: #3583F0;
+    transition: all .25s ease;
+}
+
+#list-aplications .aplication {
+	color: #2F4850;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 36px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 30px;
+}#list-aplications .aplication:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn-bllpb.nitrocdn.com/KVfSXqkAUdqTLbtnkrYWRTTDtDXezZMj/assets/static/source/rev-fd440a1/wp-content/themes/nautilus/dist/images/angle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+
+.item-project:nth-child(even) {
+	display: flex;
+    flex-flow: row-reverse;
+}
+
+.item-project .project-title {
+	color: #404044;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.item-project p {
+	color: #555;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-family: 'Rubik', sans-serif;
+}.item-project p strong {
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}.item-project p strong:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 14px;
+    background-color: #49e8d1;
+    bottom: -3px;
+    left: -2px;
+    z-index: -1;
+}
+
+.item-project span.mais {
+    color: #3583F0;
+}
